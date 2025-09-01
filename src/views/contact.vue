@@ -36,13 +36,11 @@ function submitForm(e) {
 
 <template>
   <div class="contact-page">
-    <!-- Hero Section -->
     <section class="hero d-flex flex-column justify-content-center align-items-center text-center text-white">
       <h1 class="fw-bold display-4">Contact Us</h1>
       <p class="lead">We’d love to hear from you! Let’s stay connected.</p>
     </section>
 
-    <!-- Contact Form Section -->
     <section class="container py-5">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -89,11 +87,10 @@ function submitForm(e) {
 </template>
 
 <style scoped>
-/* Hero Section like homepage */
 .hero {
   height: 40vh;
   width: 100%;
-  background-image: url('/back.jpg'); /* استخدم نفس الخلفية بتاعة الموقع */
+  background-image: url('/back.jpg'); 
   background-size: cover;
   background-position: center;
   position: relative;
@@ -108,8 +105,6 @@ function submitForm(e) {
   position: relative;
   z-index: 2;
 }
-
-/* Fade-in Animation */
 .fade-in {
   opacity: 0;
   animation: fadeIn 1.2s ease forwards;
@@ -119,8 +114,6 @@ function submitForm(e) {
     opacity: 1;
   }
 }
-
-/* Form Styling */
 .card {
   border-radius: 15px;
 }

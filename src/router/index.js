@@ -12,7 +12,6 @@ const routes = [
   { path: '/about', name: 'about', component: About },
   { path: '/cart', name: 'cart', component: Cart },
   { path: '/contact', name: 'contact', component: Contact },
-  // 404 بسيطة (اختياري)
   { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 

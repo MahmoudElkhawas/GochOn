@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- Hero Section -->
     <div class="hero d-flex flex-column justify-content-center align-items-center text-center text-white">
       <h1 class="fw-bold display-3 mb-3 animate__animated animate__fadeInDown">Discover Your Style</h1>
       <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s">
@@ -11,12 +10,10 @@
         Shop Now
       </button>
     </div>
-
     <section class="text-center my-5 container">
       <h2 id="ad" class="fw-bold">Most Popular</h2>
       <p class="lead text-muted">Our best-selling items loved by thousands of customers.</p>
     </section>
-
     <section class="container mb-5">
       <div class="row g-4">
         <div class="col-md-3" v-for="(product, i) in products.slice(0, 4)" :key="'p1-' + i">
@@ -31,13 +28,10 @@
         </div>
       </div>
     </section>
-
-    <!-- Most Popular Section (2) -->
     <section class="text-center my-5 container">
       <h2 id="ad" class="fw-bold">Trending Now</h2>
       <p class="lead text-muted">Discover the latest arrivals everyone is talking about.</p>
     </section>
-
     <section class="container mb-5">
       <div class="row g-4">
         <div class="col-md-3" v-for="(product, i) in products.slice(4, 8)" :key="'p2-' + i">
@@ -99,7 +93,7 @@ export default {
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url('/back.jpg'); /* الصورة من public */
+  background-image: url('/back.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -158,8 +152,6 @@ export default {
   object-fit: contain;
   padding: 15px;
 }
-
-/* Why Shop With Us */
 .feature-card {
   transition: transform 0.3s ease, 0.3s ease;
   border-radius: 15px;
@@ -173,8 +165,3 @@ export default {
   font-size: 40px;
 }
 </style>
-
-<!-- مكتبة أيقونات Bootstrap Icons -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-<!-- مكتبة الأنيميشن -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>

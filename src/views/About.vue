@@ -1,18 +1,15 @@
 <template>
   <div class="about container my-5">
-    <!-- Title Section -->
     <div class="text-center mb-5 fade-in">
       <h1 class="fw-bold display-4">About Us</h1>
       <p class="lead text-muted">
         Welcome to <span class="fw-bold">MyShop</span> — your go-to destination for fashion, style, and lifestyle products.
       </p>
     </div>
-
-    <!-- Our Story Section -->
     <section class="row align-items-center mb-5 slide-up">
       <div class="col-md-6">
         <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800" 
-             alt="Our Story" class="img-fluid rounded shadow-lg" />
+              alt="Our Story" class="img-fluid rounded shadow-lg" />
       </div>
       <div class="col-md-6">
         <h2 class="fw-bold mb-3">Our Story</h2>
@@ -28,8 +25,6 @@
         </p>
       </div>
     </section>
-
-    <!-- Values / Why Choose Us -->
     <section class="text-center mb-5">
       <h2 class="fw-bold mb-4">Why Choose Us?</h2>
       <div class="row g-4">
@@ -66,7 +61,6 @@
 </template>
 
 <style scoped>
-/* Animations */
 .fade-in {
   opacity: 0;
   animation: fadeIn 1.5s ease forwards;
