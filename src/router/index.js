@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 import Products from '../views/Products.vue'
 import About from '../views/About.vue'
 import Cart from '../views/Cart.vue'
-import Contact from '../views/Contact.vue'
+import Contact from '../views/contact.vue'
 
 const routes = [
   { path: '/', name: 'home', component: Home },
