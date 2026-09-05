@@ -1,6 +1,6 @@
 # 🛍️ GochOn
 
-A simple and responsive e-commerce web application built with Vue.js.
+GochOn is a responsive e-commerce web application built with Vue.js, providing an interactive shopping experience for browsing products and managing a shopping cart.
 
 ## 🚀 Live Demo
 
@@ -8,24 +8,31 @@ A simple and responsive e-commerce web application built with Vue.js.
 
 ## ✨ Features
 
-* Responsive and modern user interface
-* Product browsing
-* Product cards
-* Interactive navigation
-* Mobile-friendly design
-* Clean and reusable components
+* Responsive e-commerce interface
+* Hero section with call-to-action
+* Product collections and popular products
+* Product listing and browsing
+* Product cards with images, titles, and prices
+* Add products to the shopping cart
+* Shopping cart management
+* Navigation between different pages
+* Interactive shopping experience
+* Responsive layout for desktop, tablet, and mobile devices
+* Smooth entrance animations
 
 ## 🛠️ Technologies
 
-* Vue.js
+* Vue.js 3
 * JavaScript
 * HTML5
 * CSS3
+* Bootstrap
 * Vite
+* Animate.css
 
 ## 📱 Responsive Design
 
-The application is designed to provide a smooth experience across desktop, tablet, and mobile devices.
+The application is designed to provide a responsive and user-friendly experience across different screen sizes, including desktop, tablet, and mobile devices.
 
 ## ⚙️ Installation
 
@@ -52,6 +59,10 @@ Run the development server:
 ```bash
 npm run dev
 ```
+
+## 🌐 Deployment
+
+The application is deployed using Vercel.
 
 ## 👨‍💻 Author
 
